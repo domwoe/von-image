@@ -46,6 +46,19 @@ VERSIONS = {
         },
         "python_version": PY_36_VERSION,
     },
+    "did-indy": {
+        "path": "node-did-indy",
+        "version": "node-did-indy",
+        "args": {
+            # 1.16.0 release
+            "indy_sdk_url": "https://codeload.github.com/hyperledger/indy-sdk/tar.gz/b4b330ef326958d593ab42e25679c2dcd655494c",
+            # 0.3.2
+            "ursa_url": "https://codeload.github.com/hyperledger/ursa/tar.gz/394bcdf1413ac41793e96175d46d745ed6ffd970",
+            "rocksdb_lib_ver":"5.8.fb",
+            "rust_version": "1.46.0",
+        },
+        "python_version": PY_36_VERSION,
+    },
 }
 
 
